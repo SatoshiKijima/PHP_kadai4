@@ -1,0 +1,38 @@
+.field{
+    width: 400px;
+    height: 280px;
+    border: 2px solid #0a0;  /* 枠線 */
+    border-radius: 0.67em;   /* 角丸 */
+    padding: 0.5em;          /* 内側の余白量 */
+    background-color: snow;  /* 背景色 */
+    font-size: 1em;          /* 文字サイズ */
+    line-height: 1.2;        /* 行の高さ */
+}
+label{
+    border-bottom: 2px solid #999;
+}
+.inputform{
+        width: 1000px; /* 横幅指定 */
+        height: 300px;
+        font-weight: bold; /* 文字の太さ */
+        font-size: 16px; /* 文字の大きさ */
+        padding: 15px; /* 内側の余白 */
+        border: black;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+        top: 50px;
+}
+
+.submit{
+    border: 2px solid #0a0;  /* 枠線 */
+    padding-left: 20px;
+}
+
+.push {
+    border: black;
+}
+select {
+    border-bottom: 2px solid #999;
+}
